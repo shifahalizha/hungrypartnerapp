@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "318517992704",
+    "project_id": "hungrypartner-5cac4",
+    "storage_bucket": "hungrypartner-5cac4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318517992704:android:14a3743e62f6f167e7a7e5",
+        "android_client_info": {
+          "package_name": "com.example.hungrypartner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJQiyUyoFPql9a2JENzpQyolnuQ21zIrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

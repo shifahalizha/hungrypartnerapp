@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">hungrypartner</string>
+
+    <string name="Mochi"> dua butir telur dan
+    300 wortel</string>
+
+    <string name="Cromboloni"> 500 daging cincang dan 700 daging biasa
+    </string>
+
+    <string name="Ramen"> Mie goreng ditambah telur diaduk selama 30 detik </string>
 </resources>

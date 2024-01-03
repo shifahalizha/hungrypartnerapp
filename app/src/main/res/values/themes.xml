@@ -3,7 +3,13 @@
     <style name="Base.Theme.Hungrypartner" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/lavender</item>
     </style>
 
     <style name="Theme.Hungrypartner" parent="Base.Theme.Hungrypartner" />
+
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
 </resources>
