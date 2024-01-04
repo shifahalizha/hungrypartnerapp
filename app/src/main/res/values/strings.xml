@@ -1,8 +1,47 @@
 <resources>
     <string name="app_name">hungrypartner</string>
 
-    <string name="Mochi"> dua butir telur dan
-    300 wortel</string>
+    <string name="CromboloniIngredients">Ingredients:
+        \n250 gr Danish pastry
+        \nFilling Coklat
+        \nBaking tray lingkar
+
+    </string>
+
+    <string name="Crombolonidesc">Steps:
+        \nGunakan Danish Party dan Ukur dengan penggaris sekitar 1,5-2 cm dan buatlah garis" membentuk vertical.Setelah itu potonglah secara Vertikal mengikuti garis yang sudah dibentuk.Buatlah gulungan dari adonan yang sudah dipotong.Masukkan kedalam oven dengan suhu 175c selama 35 menit.Cromboloni sudah selesai dan bisa dimasukkan filling yang kalian punya
+    </string>
+
+    <string name="MochiIngredients">Ingredients:
+    \nTepung beras ketan 150gram
+    \nSejumput garam
+    \nMinyak sayur 1sdm
+    \nChocolatos Varian apa aja
+
+    </string>
+
+    <string name="Mochidesc">Steps:
+    \nTambahkan semua bahan yang disebutkan di atas dan masukan susu UHT. Setelah itu  dikukus 15-20 menit. Adonan sudah jadi terus dibulatin pakai tepung beras agar tidak lengket. untuk topping bisa pakai Chocolatos selera kalian. Buat dipping sauce pakai susu UHT dan keju parut yang dilarutkan bersama  maizena didalam panci dan tambah air panas. </string>
+
+    <string name="RamenIngredients">Ingredients:
+    \nMie Instan
+    \nTelur
+    \nChili oil
+    \nAyam
+    \nGula,Lada,Susu</string>
+
+    <string name="Ramendesc">Steps:
+    \nTambahkan semua bahan kecuali Mie dan susu. Rebus mie dan Telur dengan susu setelah 10 menit masukan semua bumbu yang diatas. setelah itu taruhlah ke dalam wadah. cincang ayam dan goreng menggunakan chili oil setelah itu tamabahin garam lada. setelah jadi taruhlah ayam sebagai toping mie Ramen kamu.</string>
+
+    <string name="Eslumutmilo">Ingredients:
+    \nBubuk Jelly
+    \nGula pasir
+    \nAir 600 ml
+    </string>
+
+    <string name="Eslumutmilodesc">Steps:
+    \nMasukkan bubuk jelly dan masak hingga mendidih, setelah mendidih masukkan es batu, dan diaduk sampai berubah tekstur seperti lumut. buatlah larutan milo masukan air dan juga susu kental manis. setelah itu larutan milo tadi kita masukan ke dalam jelly dan tambahkan susu UHT. sudah jadi deh.</string>
+
 
     <string name="Cromboloni"> 500 daging cincang dan 700 daging biasa
     </string>

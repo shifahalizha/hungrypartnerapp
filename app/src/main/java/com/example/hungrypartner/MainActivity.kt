@@ -50,9 +50,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun loginUser(username: String, password: String){
         databaseReference.orderByChild("username").equalTo(username).addListenerForSingleValueEvent(object : ValueEventListener{
-            override fun onDataChange(datasnapshot: DataSnapshot) {
-               if (datasnapshot.exists()){
-                   for (userSnapshot in datasnapshot.children){
+            override fun onDataChange(dataSnapshot: DataSnapshot) {
+               if (dataSnapshot.exists()){
+                   for (userSnapshot in dataSnapshot.children){
                        val userData = userSnapshot.getValue(UserData::class.java)
 
                        if (userData != null && userData.password == password){

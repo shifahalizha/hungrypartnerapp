@@ -21,6 +21,7 @@ class HomeActivity : AppCompatActivity() {
     lateinit var imageList: Array<Int>
     lateinit var titleList: Array<String>
     lateinit var descList: Array<String>
+    lateinit var IngredientList: Array<String>
     lateinit var detailImageList: Array<Int>
     private lateinit var myAdapter: AdapterClass
     private lateinit var searchView: SearchView
@@ -37,11 +38,6 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        TextView =findViewById(R.id.textview10)
-        TextView.setOnClickListener {
-                    val intent = Intent(this, MainActivity2::class.java)
-                    startActivity(intent)
-                }
 
 
 
@@ -49,25 +45,36 @@ class HomeActivity : AppCompatActivity() {
         imageList = arrayOf(
             R.drawable.jenkhugs,
             R.drawable.love_mochi__you_can_make_your_own_at_home_with_these_3_easy_and_delicious_recipes,
-            R.drawable.homemade_shoyu_ramen_noodles__soy_sauce_flavored_chuka_soba____sudachi
+            R.drawable.homemade_shoyu_ramen_noodles__soy_sauce_flavored_chuka_soba____sudachi,
+            R.drawable.milo_ice_blend
         )
 
         titleList = arrayOf(
             "Cromboloni",
             "Mochi",
-            "Shoyu Ramen"
+            "Shoyu Ramen",
+            "Es Lumut Milo"
         )
 
         descList = arrayOf(
-            getString(R.string.Mochi),
-            getString(R.string.Ramen),
-            getString(R.string.Mochi)
+            getString(R.string.CromboloniIngredients),
+            getString(R.string.MochiIngredients),
+            getString(R.string.RamenIngredients),
+            getString(R.string.Eslumutmilo)
+        )
+
+        IngredientList = arrayOf(
+            getString(R.string.Crombolonidesc),
+            getString(R.string.Mochidesc),
+            getString(R.string.Ramendesc),
+            getString(R.string.Eslumutmilodesc)
         )
 
         detailImageList = arrayOf(
             R.drawable.jenkhugs,
             R.drawable.love_mochi__you_can_make_your_own_at_home_with_these_3_easy_and_delicious_recipes,
-            R.drawable.homemade_shoyu_ramen_noodles__soy_sauce_flavored_chuka_soba____sudachi
+            R.drawable.homemade_shoyu_ramen_noodles__soy_sauce_flavored_chuka_soba____sudachi,
+            R.drawable.milo_ice_blend
         )
 
 
@@ -119,7 +126,7 @@ class HomeActivity : AppCompatActivity() {
 
     private fun getData() {
         for (i in imageList.indices) {
-            val dataClass = DataClass(imageList[i], titleList[i], descList[i], detailImageList[i])
+            val dataClass = DataClass(imageList[i], titleList[i], descList[i], IngredientList[i], detailImageList[i])
             dataList.add(dataClass)
         }
         searchList.addAll(dataList)

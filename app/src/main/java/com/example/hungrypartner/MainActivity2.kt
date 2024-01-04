@@ -1,12 +1,9 @@
 package com.example.hungrypartner
 
-import android.app.Activity
+
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.inputmethod.InputBinding
-import android.widget.GridLayout
-import android.widget.SearchView
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.hungrypartner.databinding.ActivityMain2Binding
@@ -48,7 +45,7 @@ class MainActivity2 : AppCompatActivity() {
         eventListener = databaseReference!!.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 dataList.clear()
-                for (itemSnapshot in snapshot.children) {
+                for(itemSnapshot in snapshot.children) {
                     val dataClass2 = itemSnapshot.getValue(DataClass2::class.java)
                     if(dataClass2 != null){
                         dataList.add(dataClass2)

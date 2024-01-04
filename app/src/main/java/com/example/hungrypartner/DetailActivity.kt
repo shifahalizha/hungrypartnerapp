@@ -14,10 +14,12 @@ class DetailActivity : AppCompatActivity() {
         if(getData != null) {
             val detailTitle: TextView = findViewById(R.id.detailTitle)
             val detailDesc: TextView = findViewById(R.id.detailDesc)
+            val detailIngredients: TextView = findViewById(R.id.detailIngredients)
             val detailImage: ImageView = findViewById(R.id.detailImage)
 
             detailTitle.text = getData.dataTitle
             detailDesc.text = getData.dataDesc
+            detailIngredients.text = getData.dataIngredients
             detailImage.setImageResource(getData.dataDetailImage)
 
 

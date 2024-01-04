@@ -3,9 +3,10 @@ package com.example.hungrypartner
 import android.os.Parcel
 import android.os.Parcelable
 
-data class DataClass(var dataImage:Int, var dataTitle :String, var dataDesc: String, var dataDetailImage: Int): Parcelable {
+data class DataClass(var dataImage:Int, var dataTitle :String, var dataDesc: String, var dataIngredients: String,var dataDetailImage: Int): Parcelable {
     constructor(parcel: Parcel) : this(
         parcel.readInt(),
+        parcel.readString()!!,
         parcel.readString()!!,
         parcel.readString()!!,
         parcel.readInt()
@@ -16,6 +17,7 @@ data class DataClass(var dataImage:Int, var dataTitle :String, var dataDesc: Str
         parcel.writeInt(dataImage)
         parcel.writeString(dataTitle)
         parcel.writeString(dataDesc)
+        parcel.writeString(dataIngredients)
         parcel.writeInt(dataDetailImage)
     }
 
